@@ -1,0 +1,45 @@
+.searchButton{
+    background-color:tomato;
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 25px;
+    width: 20%
+}
+
+.searchBox{
+    width: 50%;
+}
+
+.form-control:focus{
+    border-color:tomato;
+    box-shadow: 0 0 0 .10rem rgb(209, 180, 48);
+}
+
+#searchResult {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+h2, h3 {
+    color:tomato;
+    font-weight: bold;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.col-3 {
+    margin-bottom: 40px;
+}
+
+.mealName {
+    text-align: center;
+}
+
+.form-check-input:checked {
+    background-color: tomato;
+    border-color:tomato;
+}
